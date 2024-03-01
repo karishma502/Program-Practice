@@ -3,4 +3,6 @@
     <fullyQualifiedTypeName name="PracticeCode.Palindrome"/>
     <fullyQualifiedTypeName name="javax.swing.text.PlainDocument"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthFormattedTextFieldUI"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
 </qualifiedTypeNameHistroy>
