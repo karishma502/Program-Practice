@@ -1,0 +1,32 @@
+package PracticeCode;
+
+public class RemoveElemement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int[] nums = {1,3,3,5,7};
+		int val = 3;
+		
+				
+		System.out.println(removeEle(nums, val));
+
+	}
+	
+	public static int removeEle(int[] nums, int val) {
+		
+		int len = nums.length;
+		int index =0;
+		
+		for(int i=0;i<len;i++) {
+			
+			if(nums[i] != val) {
+				
+				nums[index]=nums[i];
+				index++;
+			}
+		}
+		return index;
+	}
+
+}
