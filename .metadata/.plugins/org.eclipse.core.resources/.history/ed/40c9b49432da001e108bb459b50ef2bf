@@ -6,7 +6,7 @@ public class RemoveDuplicate {
 		// TODO Auto-generated method stub
 		
 		
-//		Problem: Remove duplicates from array
+//		Remove duplicate from array
 //		Example 1:
 //
 //			Input: nums = [1,1,2]
