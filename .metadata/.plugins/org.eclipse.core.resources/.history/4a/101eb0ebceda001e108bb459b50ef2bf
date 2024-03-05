@@ -1,0 +1,41 @@
+package PracticeCode;
+
+import BaseClasses.ListNode;
+
+public class DuplicateDeleteFromSortedLinkedList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ListNode head =new ListNode(1);
+		head.next =new ListNode(1);
+		head.next.next =new ListNode(2);
+		System.out.println();
+
+	}
+
+	public ListNode DeleteDuplicate(ListNode head) {
+		
+		ListNode temp = head;
+		while(temp != null && temp.next !=null) {
+			if(temp.val == temp.next.val) {
+				temp.next = temp.next.next;
+			}
+			else {
+				temp =temp.next;
+			}
+		}
+		return head;
+		
+		
+	}
+	
+    public static void printList(ListNode head) {
+        ListNode temp = head;
+        while (temp != null) {
+            System.out.print(temp.val + " ");
+            temp = temp.next;
+        }
+        System.out.println();
+    }
+}

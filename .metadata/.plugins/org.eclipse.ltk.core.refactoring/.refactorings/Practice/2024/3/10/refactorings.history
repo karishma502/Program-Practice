@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;PracticeCode&apos; to &apos;BaseClasses&apos;&#x0D;&#x0A;- Original project: &apos;Practice&apos;&#x0D;&#x0A;- Original element: &apos;Practice/src/main/java/PracticeCode&apos;&#x0D;&#x0A;- Renamed element: &apos;Practice/src/main/java/BaseClasses&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;PracticeCode&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;PracticeCode" name="BaseClasses" qualified="false" references="true" stamp="1709628550281" textual="false" version="1.0"/>
+</session>

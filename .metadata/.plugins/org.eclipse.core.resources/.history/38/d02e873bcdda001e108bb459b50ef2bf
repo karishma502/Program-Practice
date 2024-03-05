@@ -1,0 +1,15 @@
+package PracticeCode;
+
+public class DuplicateDeleteFromSortedLinkedList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public ListNode DeleteDuplicate(ListNode head) {
+		return head;
+		
+		
+	}
+}

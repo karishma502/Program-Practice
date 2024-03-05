@@ -6,6 +6,11 @@ public class Palindrome {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		
+		/*
+		 * Leet Code Problem : 9
+		 */
+		
 		Palindrome p = new Palindrome();
 		int x= 121;
 		System.out.println(p.palidrome(x));

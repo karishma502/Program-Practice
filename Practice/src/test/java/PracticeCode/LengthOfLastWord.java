@@ -5,6 +5,10 @@ public class LengthOfLastWord {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		
+		/*
+		 * Leet Code Problem : 58
+		 */
 		System.out.println(lastIndexLen("Hello Word"));
 		System.out.println(lastIndexLen("Hello Welcome to my world "));
 
