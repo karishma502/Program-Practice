@@ -11,7 +11,7 @@ public class MergeTwoSortedList {
 		
 		/*
 		 * Merge Two sorted list
-		 * problem : 21
+		 * LeetCode problem : 21
 		 */
 		
 		//Code
