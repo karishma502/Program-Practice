@@ -7,4 +7,7 @@
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="PracticeCode.DuplicateDeleteFromSortedLinkedList"/>
+    <fullyQualifiedTypeName name="BaseClasses.ListNode"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>
