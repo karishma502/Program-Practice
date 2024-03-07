@@ -10,4 +10,6 @@
     <fullyQualifiedTypeName name="PracticeCode.DuplicateDeleteFromSortedLinkedList"/>
     <fullyQualifiedTypeName name="BaseClasses.ListNode"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
+    <fullyQualifiedTypeName name="PracticeCode.ValidParantheses"/>
 </qualifiedTypeNameHistroy>

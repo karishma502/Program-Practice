@@ -1,5 +1,6 @@
+package PracticeCode;
 
-public class Palindrome {
+public class plusOne {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
