@@ -24,7 +24,7 @@ public class SquareRootOfX {
         System.out.println(mySqrt(4)); // Output: 2
         System.out.println(mySqrt(8)); // Output: 2
         System.out.println(mySqrt(16)); // Output: 4
-        System.out.println(mySqrt(32)); // Output: 5
+        System.out.println(mySqrt(32)); // Output: 4
 
 
 
