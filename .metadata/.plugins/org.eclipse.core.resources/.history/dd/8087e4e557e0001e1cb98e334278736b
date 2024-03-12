@@ -1,0 +1,36 @@
+package PracticeCode;
+
+public class SearchInsert {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static int srchInsert(int[] nums, int target) {
+		
+		//using binary search to find solution.
+		
+		int l = 0;  //low value
+		int h = nums.length-1;   // high value
+		
+		while(l<=h) {
+			int mid =  l + (h-l)/2;   //mid of array.
+			
+			if(nums[mid] == target) {
+				return mid;
+			}
+			else if(nums[mid] >target) {
+				
+				h = mid -1;
+			}else {
+				l = mid +1;
+			}
+			
+		}
+		
+		return l;
+		
+	}
+
+}
