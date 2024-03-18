@@ -7,10 +7,11 @@
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="PracticeCode.DuplicateDeleteFromSortedLinkedList"/>
-    <fullyQualifiedTypeName name="BaseClasses.ListNode"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.Stack"/>
     <fullyQualifiedTypeName name="PracticeCode.ValidParantheses"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="PracticeCode.MergeSortedArray"/>
+    <fullyQualifiedTypeName name="BaseClasses.ListNode"/>
 </qualifiedTypeNameHistroy>
