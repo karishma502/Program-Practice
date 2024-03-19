@@ -1,0 +1,58 @@
+package PracticeCode;
+
+import BaseClasses.ListNode;
+
+public class ReverseLinkedList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+
+		ListNode head1 = new ListNode(1);
+		head1.next = new ListNode(2);
+		head1.next.next = new ListNode(3);
+		head1.next.next.next = new ListNode(4);
+		head1.next.next.next.next = new ListNode(5);
+		System.out.println("Input :");
+
+		printList(head1);
+
+		ListNode result = reverseList(head1);
+		System.out.println("Output :");
+
+		printList(result);
+
+
+
+
+	}
+
+
+	public static ListNode reverseList(ListNode head) {
+
+		ListNode prev=null;
+		ListNode dummy =head;
+		while(dummy != null) {
+			ListNode x = dummy.next;
+			dummy.next = prev;
+			prev = dummy;
+			dummy =x;
+		}
+
+		return prev;
+	}
+
+	public static void printList(ListNode head) {
+
+		ListNode temp = head;
+		while(temp != null) {
+
+			System.out.println(temp.val+"");
+
+			temp=temp.next ;
+		}
+		System.out.println();
+
+	}
+}
+
