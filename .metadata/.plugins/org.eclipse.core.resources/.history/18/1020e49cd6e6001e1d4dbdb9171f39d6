@@ -1,0 +1,33 @@
+package PracticeCode;
+
+public class FindSmallestLetterGreaterThanTarget {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		char[] letters ={'a','f','c'};
+		char target = 'b';
+		
+		System.out.println(nextGreatestLetter(letters, target));
+	}
+	
+    public static char nextGreatestLetter(char[] letters, char target) {
+    	
+    	int n = letters.length;
+    	int left = 0;
+    	int right= n-1;
+    	
+    	while(left+1<right) {
+    		int mid = left + (right - left)/2;
+    		
+    		if(letters[mid] < right) {
+    			left = mid;
+    		}
+    		else {
+    			right =mid;
+    		}
+    	}
+    	return letters[right];
+    }
+
+}
