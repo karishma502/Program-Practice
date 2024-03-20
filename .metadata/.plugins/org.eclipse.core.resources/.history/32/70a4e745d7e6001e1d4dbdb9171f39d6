@@ -10,7 +10,6 @@ public class FindSmallestLetterGreaterThanTarget {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		//EX : 1
 		char[] letters ={'c','f','j'};
 		char target = 'a';
 		
