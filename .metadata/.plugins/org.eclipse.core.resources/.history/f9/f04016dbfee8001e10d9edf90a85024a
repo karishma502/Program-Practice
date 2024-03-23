@@ -1,0 +1,34 @@
+package PracticeCode;
+
+public class GuessNumberHigherOrLower {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	private static int pick = 6;
+	
+    public static  int guessNumber(int n) {
+    	int l =1 ;
+    	int r =n;
+    	
+    	while(l<=r) {
+    		int mid = l+ (r-l)/2;
+    		
+    		int guessNum = guess(mid);
+    	}
+		return n;
+    	
+    }
+    
+    public int guess(int num) {
+        if (num < pick) {
+            return 1; // Your guess is lower than the number picked
+        } else if (num > pick) {
+            return -1; // Your guess is higher than the number picked
+        } else {
+            return 0; // Your guess is equal to the number picked
+        }    	
+    }
+
+}
