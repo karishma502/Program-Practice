@@ -1,0 +1,25 @@
+package PracticeCode;
+
+public class ReverseString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static void reverseStr(char [] ch) {
+		
+		int s =0;
+		int len =ch.length-1;
+		
+		while(s<=len) {
+			char temp = ch[s];
+			ch[s] =ch[len];
+			ch[len] =temp;
+			s++;
+			len--;
+		}
+		
+	}
+
+}
