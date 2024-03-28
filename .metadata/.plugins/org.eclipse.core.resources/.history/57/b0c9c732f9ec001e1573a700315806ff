@@ -1,0 +1,43 @@
+package PracticeCode;
+
+import BaseClasses.TreeNode;
+
+public class SortedArrayToBST {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		TreeNode node = new TreeNode(-10);
+		node.left = new TreeNode(-3);
+		node.left = new TreeNode(0);
+		node.left = new TreeNode(5);
+		node.left = new TreeNode(9);
+
+
+		
+
+
+	}
+
+	public TreeNode ArrayToBST(int[] nums) {
+		if(nums.length ==0) {
+			return null;
+		}
+		return create(nums,0,nums.length-1);
+
+	}
+
+	public static TreeNode create(int [] nums,int start,int end) {
+		if(start>end) {
+			return null;
+		}
+		int mid = start + (end-start)/2;
+		TreeNode node = new TreeNode(nums[mid]);
+		node.left =create(nums,start,mid-1);
+		node.right =create(nums,mid+1,end);
+		return node;
+
+	}
+
+
+}

@@ -1,0 +1,62 @@
+package PracticeCode;
+
+import BaseClasses.TreeNode;
+
+public class SortedArrayToBST {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+        int[] nums1 = {-10, -3, 0, 5, 9};
+        
+       
+        TreeNode nodeResult = ArrayToBST(nums1);
+        System.out.println("Example 1 Output:");
+
+        printTree(nodeResult);
+
+        int[] nums2 = {1,3};
+        
+        
+        TreeNode nodeResult2 = ArrayToBST(nums2);
+        System.out.println("Example 2 Output:");
+
+        printTree(nodeResult2);
+
+
+		
+
+
+	}
+
+	public static TreeNode ArrayToBST(int[] nums) {
+		if(nums.length ==0) {
+			return null;
+		}
+		return create(nums,0,nums.length-1);
+
+	}
+
+	public static TreeNode create(int [] nums,int start,int end) {
+		if(start>end) {
+			return null;
+		}
+		int mid = start + (end-start)/2;
+		TreeNode node = new TreeNode(nums[mid]);
+		node.left =create(nums,start,mid-1);
+		node.right =create(nums,mid+1,end);
+		return node;
+
+	}
+	
+    private static void printTree(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        printTree(root.left);
+        System.out.print(root.val + " ");
+        printTree(root.right);
+    }
+
+}
