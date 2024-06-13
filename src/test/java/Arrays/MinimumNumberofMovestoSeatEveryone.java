@@ -4,8 +4,8 @@ package Arrays;
 import java.util.Arrays;
 
 /**
- * T - O(n log n)
- * S -O(n)
+ * Time complexity - O(n log n)
+ * Space Complexity -O(n)
  */
 public class MinimumNumberofMovestoSeatEveryone {
 
