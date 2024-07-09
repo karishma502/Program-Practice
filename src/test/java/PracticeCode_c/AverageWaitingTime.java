@@ -15,12 +15,16 @@ public class AverageWaitingTime {
 		System.out.println(averageWaitingTime(cstmr2));
 	}
 	public static double averageWaitingTime(int[][] customers) {
-		double sum = 0;
-		for (int i = 0, finish = 0; i < customers.length; i++) {
-			finish = Math.max(finish, customers[i][0]) + customers[i][1];
-			sum += Math.max(0, finish - customers[i][0]);
+		long busyUptill =0, n= customers.length, waitingTime = 0;
+
+		for(int i=0; i<n;i++){
+			long arrival= customers[i][0], time = customers[i][1];
+
+			waitingTime += Math.max(arrival,busyUptill) + time - arrival;
+			busyUptill = Math.max(arrival ,busyUptill) +time;
 		}
-		return sum / customers.length;
+
+		return (waitingTime *1.0)/n ;
 	}
 
 }
