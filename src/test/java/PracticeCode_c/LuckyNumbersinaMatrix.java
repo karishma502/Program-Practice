@@ -12,17 +12,17 @@ public class LuckyNumbersinaMatrix {
 		// TODO Auto-generated method stub
 
 		int[][] matrix1 = {{3, 7, 8},
-							{9, 11, 13},
-							{15, 16, 17}};
+				{9, 11, 13},
+				{15, 16, 17}};
 		System.out.println(luckyNumbers(matrix1));
 
 		int[][] matrix2 = {{1,10,4,2},
-							{9,3,8,7},
-							{15,16,17,12}};
+				{9,3,8,7},
+				{15,16,17,12}};
 		System.out.println(luckyNumbers(matrix2));
 
 		int[][] matrix3 = {{7, 8},
-							{1,2}};
+				{1,2}};
 		System.out.println(luckyNumbers(matrix3));
 
 
