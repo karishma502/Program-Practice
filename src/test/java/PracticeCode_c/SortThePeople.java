@@ -11,18 +11,17 @@ public class SortThePeople {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-		String[] names = {"Merry","Cherry","Carry"};
-		int[] ht = {160,180,175};
-
-
-		String[] sortedNames = sortPeople(names, ht);
-
-		// Print the sorted names
-		System.out.println("Sorted names by descending height:");
-		for (String name : sortedNames) {
-			System.out.println(name);
-		}	
+        String[] names1 = {"Mary", "John", "Emma"};
+        int[] heights1 = {180, 165, 170};
+        
+        String[] sortedNames1 = sortPeople(names1, heights1);
+        System.out.println(Arrays.toString(sortedNames1));
+        
+        String[] names2 = {"Alice", "Bob", "Bob"};
+        int[] heights2 = {155, 185, 150};
+        
+        String[] sortedNames2 = sortPeople(names2, heights2);
+        System.out.println(Arrays.toString(sortedNames2));
 	}
 	public static String[] sortPeople(String[] names, int[] heights) {
 
