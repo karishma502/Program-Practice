@@ -34,7 +34,6 @@ public class MinimumDeletionstoMakeStringBalanced {
 
 		return numOfDeletion;
 
-
 	}
 
 }
