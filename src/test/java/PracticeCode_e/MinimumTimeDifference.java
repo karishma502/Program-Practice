@@ -7,7 +7,7 @@ public class MinimumTimeDifference {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		 List<String> timePoints = {"23:59","00:00"};
+	//	 List<String> timePoints = "23:59,"00:00";
 		 System.out.println((findMinDifference(timePoints)));
 	}
 	public static int findMinDifference(List<String> timePoints) {
