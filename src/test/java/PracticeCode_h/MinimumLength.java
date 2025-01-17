@@ -9,7 +9,8 @@ public class MinimumLength {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// Test case 1
-		String[] words1 = "abaacbcbb";
+		String[] words1 = {"abaacbcbb"};
+		String[] words2={"abc"};
 		System.out.println(wordSubsets(words1, words2));
 
 	}
