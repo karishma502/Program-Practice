@@ -5,8 +5,8 @@ public class Palindrome {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String s1 ="1114";
-		if(isPalidndrome(s1)) {
+		String s1 ="level";
+		if(isPalidrome(s1)) {
 			System.out.println("is palindrome");
 		}
 		else {
@@ -60,6 +60,24 @@ public class Palindrome {
 		}
 		//compare the original string with reverse string
 		return s.equals(rev);
+	}
+	
+	
+	public static boolean isPalidrome(String s) {
+		
+		int left=0;
+		int right = s.length()-1;
+		
+		if(left<right) {
+			if(s.charAt(left)!=s.charAt(right)) {
+				return false;
+
+			}
+			left++;
+			right--;
+		}
+		return true;
+		
 	}
 
 }

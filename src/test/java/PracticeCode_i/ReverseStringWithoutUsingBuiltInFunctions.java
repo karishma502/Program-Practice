@@ -8,11 +8,12 @@ public class ReverseStringWithoutUsingBuiltInFunctions {
 		String s = "Karu";
 		reverseStrUsingCharArray(s);
 		reverseStrWithoutCharArray(s);
+		String a =reverseStr(s);
+		System.out.println(a);
 	}
 	
 	//Using Char Array
 	public static void reverseStrUsingCharArray(String s) {
-		
 		
 		char [] arr = s.toCharArray();
 		
@@ -33,6 +34,17 @@ public class ReverseStringWithoutUsingBuiltInFunctions {
 		}
 		System.out.println(rev);
 	}
+	
+	//Using Char Array - return type STRING
+
+    public static String reverseStr(String str) {
+        char[] chars = str.toCharArray();
+        String reversed = "";
+        for (int i = chars.length - 1; i >= 0; i--) {
+            reversed += chars[i];
+        }
+        return reversed;
+    }
 	
 
 }
